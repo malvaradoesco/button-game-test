@@ -32,6 +32,9 @@ const quotes = [
     },
     
 ];
+
+
+
 const changeQuote =() =>{
     let index = [Math.floor(Math.random() * quotes.length)];
 
@@ -43,4 +46,26 @@ const changeQuote =() =>{
     body.style.backgroundColor = randomColor;
 }
 
-quoteBtn.addEventListener('click', changeQuote);
+quoteBtn.addEventListener('click', changeQuote, randomImg1);
+
+
+function randomImg1() {
+      var myImages1 = new Array ();
+      myImages1[1] = "ceiba stream frog.jpeg";
+      myImages1[2] = "Cochranella_albomaculata.jpg";
+      myImages1[3] = "copan brook frog.jpg";
+      var rnd = Math.floor( Math.random() * myImages1.length );
+      if( rnd == 0 ) {
+        rnd =1;
+      }
+      html_code = '<img class="who" src="' + myImages1[rnd] + '" />"';
+      document.write(html_code);
+    }
+
+        const frog = [
+    { id: 1, img: 'ceiba stream frog.jpeg'},
+    { id: 2, img: 'Cochranella_albomaculata.jpg' },
+    { id: 3, img: 'copan brook frog.jpg' },
+    { id: 4, img: 'desert rain frog.jpg' },
+    { id: 5, img: 'glass frog.jpg' },
+    ];
