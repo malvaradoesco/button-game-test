@@ -1,0 +1,63 @@
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    background-color: #008b8b;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hat {
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+
+#thunder {
+    position: absolute;
+    top: -30%;
+    right: 15%;
+
+}
+
+.newQuoteBtn {
+    position: absolute;
+    bottom: 4%;
+    right: 5%;
+    background-color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.newQuoteBtn1 {
+    position: absolute;
+    bottom: 4%;
+    right: 20%;
+    background-color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.hidden{
+display: none;
+}
